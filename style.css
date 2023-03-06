@@ -2,11 +2,11 @@
     background-color: rgb(17, 68, 85);
     color: rgb(200, 240, 240);
     font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 h1,h2 {
     width: auto;
-    text-align: center;
     text-transform: uppercase;
 }
 
