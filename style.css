@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(17, 68, 85);
+    background-color: rgb(17, 85, 107);
     color: rgb(200, 240, 240);
     font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -23,13 +23,29 @@ img {
 ul {
     box-sizing: border-box;
     margin: auto;
-    padding-right: 40px;
+    padding: 40px;
     float: left;
     list-style:inside;
 }
 
 li {
     margin: 10px;
+    text-align: left;
+}
+
+li:hover {
+    color:rgb(110, 126, 148);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(0, 17, 116);
+    text-decoration: none;
 }
 
 .stack {
