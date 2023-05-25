@@ -1,0 +1,61 @@
+*{
+ //border: solid #ffffff 1px;
+}
+
+body{
+ background-color: #001220;
+ }
+
+section{
+ //background-color: #380208;
+}
+
+.container{
+ //background-color: #8686e1;
+ color: white;
+}
+
+.curve{
+ aspect-ratio: 960/300;
+ width: 100%;
+ max-height: 500px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+.top{
+ background-image: url("./curves/layered-waves-haikei.svg");
+}
+
+.bottom{
+ background-image: url("./curves/layered-waves-haikei-bottom.svg");
+}
+
+.contact{
+ background-image: url("./curves/layered-waves-haikei-footer.svg");
+}
+
+#hero {
+ height: 60vh;
+ display: flex;
+ align-items: center;
+}
+
+#about{
+ background-color: #0e59a9;
+}
+
+#botpic{
+ display: flex;
+ justify-content: center;
+}
+
+#logo{
+ border-radius: 10px;
+}
+
+#contact{
+background: linear-gradient(0deg, rgba(0,18,32,1) 0%, rgba(14,89,169,1) 100%););
+}
+
